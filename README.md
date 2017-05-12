@@ -2,9 +2,9 @@
 this repo contains the scripts written for infrastructure automation
 
 
-#Installation of Ansible 
+# Installation of Ansible 
 
-#For MAC
+# For MAC
 Step 1: Install Ansible via Brew
 $ brew install ansible
 
@@ -29,7 +29,7 @@ host1 ansible_ssh_host=10.55.100.226 ansible_ssh_user=user
 Step 5: Test the ssh connection
 $ ansible host1 –m ping 
 
-#For UBUNTU
+# For UBUNTU
 Step 1: apt-add-repository ppa:ansible/ansible
 Step 2: apt-get update
 Step 3: apt-get install ansible
