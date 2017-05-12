@@ -10,8 +10,10 @@ $ mkdir /usr/local/etc/ansible
 
 Step 3: SSH configuration
 -	Generate an ssh key via key generation command. If you already have one go to next step
--	Copy your ssh id to the client machine. 
+-	Copy your ssh id to the client machine
+
 $ ssh-copy-id user@10.55.100.226
+
 here 10.55.100.226 is the client machine which we want to configure
 
 Note: If ssh-copy-id is not there, install it using brew
