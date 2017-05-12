@@ -28,6 +28,9 @@ $ ansible host1 –m ping
 
 # For UBUNTU
 Step 1: apt-add-repository ppa:ansible/ansible
+
 Step 2: apt-get update
+
 Step 3: apt-get install ansible
+
 Step 4: ansible --version
